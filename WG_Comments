@@ -1,0 +1,18 @@
+~ Line 7 & 8 : Very good statistical tools, but not so good without context or explanation on what insights they give you about the variables
+
+~ Line 9 : Why use ".corr().sum()"?  Remember, corr() helps you identify variables that show a good chance of strong/good relationship for modelling
+
+~ Line 10: Add a comment on how/why you chose these variables for modelling? Example might be to refer to .corr() plot and find variables with correlation scores above 50%
+
+~ Line 11: Did you try other sample sizes for test_size and see how your model performs? Comment on why you used '0.3'?
+
+~ Additional: Compare .var() of your dataset with the training set. Make sure they are as close as possible. Careful here, a distribution plot might be better in case your training set is biased/skewed
+
+~ Line 17, 18 & 19: Make some comments aboute what your .pvalues, .rsquared & model_mse tell you about the performance of your model
+
+~ Line 21 & 22: Label axis in your plots. It is advisable to place dependent variable on y-axis
+
+~ General: It is always good to do exploratory analysis before modelling, to help you clean your data & pick variables to model with
+
+~ Line 33: Better to use % difference and say something about how significant the difference
+
