@@ -1,0 +1,7 @@
+Changes / additions to be made:
+
+Add more of description between steps about what you are doing why. 
+Salary is skewed and should be transformed before running the regression.
+The reported correlations are incorrect - correlations cannot be larger than 1. 
+The variables should be standardised before running the regression to be able to get standardised coefficients that you can compare to each other.
+Interpret the RMSE differences - is the model overfit or does it seem good?
